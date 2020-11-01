@@ -1,0 +1,349 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: quicksand;
+    background-color: #316888;
+    margin: 0px;
+    right: 0px;
+    color: whitesmoke;
+}
+a {
+    text-decoration: none;
+  }
+li{
+ list-style: none;   
+}
+
+header{
+background-color: whitesmoke;
+color: #050505;
+width: 100%;
+height: 90px;
+display: flex;
+justify-content: space-around;
+align-content: center;
+top: 0;
+position: fixed;
+z-index: 100;
+}
+.flex-list{
+display: flex;
+margin:0px;
+padding-top: 25px;
+}
+.search{
+    position: absolute;
+    background-color:whitesmoke ;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    height: 30px;
+    padding: 7px;
+}
+.search-button{
+    background-color:#f5f5f5;
+    border:none;
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+}
+.search-button:hover{
+    background-color: rgba(231, 228, 228, 0.966);
+    transition: 0,7s; 
+    border:none;
+}
+.box-search {
+ background-color:whitesmoke;
+ border: none;
+ font-weight: bold;
+ line-height: 30px;
+ float: left;
+ outline: none;
+}
+.header-list a {
+    line-height: 40px;
+    padding: 0px 0px;
+    margin:0 10px;
+    color: rgb(0, 0, 0);
+    display: block;
+    float: left;
+    transition: all 0.7s;
+  }
+.header-list a:hover{
+color:#9acae6; 
+border-bottom: 2px solid #9acae6;
+}
+.makan{
+padding-top: 90px;
+color:whitesmoke;
+height: 700px;
+width:100%;
+}
+.makan h2{
+    color: whitesmoke;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 200px;
+}
+.lirik p{
+    color: whitesmoke;
+    font-size: 20px ;
+    text-align: left;
+    padding-left: 200px;
+}
+
+#pertama{
+    padding-top: 90px;
+   height: 800px;
+   display: inline-block; 
+   width: 100%;
+    background-color: #316888;
+}
+.gambarpaketa{
+    margin-left: 200px;
+    border-radius: 20px;
+}
+.pengantar1{
+    padding-left:200px ;
+}
+#kedua{
+    padding-top: 90px;
+    height: 800px;
+    display: inline-block; 
+    width: 100%;
+    background-color: #316888;
+ }
+ .pengantar2{
+     padding-left: 200px;
+ }
+ 
+ .menumenu{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     padding: 0 180px;
+ }
+.menu-a{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    border-radius: 10px;
+    height: 500px;
+    width: 400px;
+    margin: 0 10px;
+}
+.pesanmenu{
+    background-color:#9acae6;
+    font-size: 20px;
+    border-radius: 5px;
+    color: black;
+    width: 60px;
+    align-self: center;
+    transition: 0.3s;
+    border-bottom: solid 1px whitesmoke;
+    border-right: solid 1px whitesmoke;
+}
+.pesanmenu:hover{
+    color: #f5f5f5;
+    border-bottom: solid 5px whitesmoke;
+    border-right: solid 5px whitesmoke;
+}
+.paketa-gambar{
+    border-radius: 20px;
+    transition: transform 0.5s;
+}
+.paketa-gambar:hover{
+    transform: translateY(-5px);
+}
+ #ketiga{
+    padding-top: 90px;
+    height: 600px;
+    display: inline-block; 
+    width: 100%;
+    background-color: #316888;
+ }
+ .pengantar3{
+     padding-left: 200px;
+ }
+ .alamat{
+    padding :0 200px;
+    display: flex;
+    flex-direction: row;
+ }
+ .alamat a{
+     color: whitesmoke;
+     transition: 0.3s;
+ }
+ .alamat a:hover{
+    color: red;
+    text-decoration: underline;
+ }
+ #keempat{
+    padding-top: 90px;
+    height: 1100px;
+    display: inline-block; 
+    width: 1024px;
+    background-color: #316888;
+ }
+ .pengantar4{
+     padding-left: 200px;
+ }
+ .pesananmu{
+     padding-left: 200px;
+ }
+ .title{
+     padding-left: 0;
+ }
+ 
+ table{
+     width: 100%;
+     border-collapse: collapse;
+ }
+ .cart-info{
+    display: flex;
+    flex-direction: row;
+ }
+ th{
+     text-align: left;
+     padding: 5px;
+     color:black;
+     background-color:whitesmoke;
+     font-weight: normal;
+ }
+ td{
+     padding:10px 5px ;
+ }
+ td input{
+     width: 30px;
+     height: 20px;
+     padding: 5px;
+ }
+ td a{
+     color:black ;
+     font-size: 12px;
+     transition: 0.3s;
+ }
+ td a:hover{
+    color: red;
+}
+
+ .total-harga{
+   display: flex;
+   justify-content: flex-end;  
+ }
+ .total-harga table{
+     border-top: 3px solid whitesmoke;
+     width: 100%px;
+     max-width: 400px;
+ }
+ td:last-child{
+     text-align: right;
+ }
+ th:last-child{
+     text-align: right;
+ }
+ .alamatuser{
+     display: flex;
+     flex-direction: column;
+     align-items: flex-end;
+     padding-top: 20px;
+ }
+ .alamatuser input{
+     width: 300px;
+     height: 20px;
+     border-radius: 5px;
+     font-size: 15px;
+     font-family: quicksand;
+     text-align: start;
+     border: black 1px solid;
+     background-color:whitesmoke;
+ }
+ .alamatuser textarea{
+     width: 400px;
+     height: 100px;
+     resize: none;
+     border-radius: 5px;
+     font-size: 15px;
+     font-family: quicksand;
+     text-align: start;
+     border: black 1px solid;
+     background-color:whitesmoke;
+ }
+ .alamatuser select{
+    width: 300px;
+    height: 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: quicksand;
+    text-align: start;
+    border: black 1px solid;
+    background-color:whitesmoke;
+}
+.pesansekarang{
+    background-color:#9acae6;
+    font-size: 20px;
+    border-radius: 5px;
+    color: black;
+    width: 160px;
+    text-align: center;
+    transition: 0.3s;
+    border-bottom: solid 1px whitesmoke;
+    border-right: solid 1px whitesmoke;
+}
+.pesansekarang:hover{
+    color: #f5f5f5;
+    border-bottom: solid 5px whitesmoke;
+    border-right: solid 5px whitesmoke;
+}
+ footer{
+     height: 150px;
+     width: 100%;
+     text-align: center;
+     color: whitesmoke;
+     background-color: rgb(1, 53, 53);
+ }
+footer h3{
+    padding-top: 50px;
+}
+
+.checkbox{
+    opacity: 0;
+    position: absolute;
+}
+.label{
+    box-sizing: border-box;
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:5px;
+    border-radius: 50px;
+    height: 26;
+    width: 50px;
+    position: relative;
+}
+.ball{
+    top: 2px;
+    left:2px;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    transition: transform 0.2s linear;
+}
+.checkbox:checked + .label .ball{
+    transform: translateX(24px);
+}
+.fa-moon{
+    padding-top: 32px;
+    margin-left: 5px;
+    color:black;
+    transition: 0.7s;
+}
+.fa-moon:hover{
+    color: #9acae6;
+}

@@ -1,0 +1,78 @@
+/* Tablet */
+@media all and (max-width:1000px){
+    header{
+        width: 100%;
+    }
+    hero{
+        width: auto;
+    }
+    .makan h2{
+        padding-left:50px;
+    }
+    .lirik p{
+        padding-left:50px;
+    }
+    .pengantar1{
+        padding-left:50px;
+    }
+    .gambarpaketa{
+        margin: 50px;
+    }
+    #kedua{
+        width:auto;
+        height:auto
+    }
+    .pengantar2{
+        padding-left:50px;
+    }
+    .menumenu{
+        display:flex;
+        flex-direction:column;
+    }
+    .menu-a{
+        height:auto;
+        margin-bottom:20px;
+    }
+  #ketiga{
+      width:auto;
+      height:auto;
+  }
+ .pengantar3{
+     padding-left:50px;
+ }
+ .alamat{
+     padding-left:50px;
+ }
+ #keempat{
+     width:auto;
+ }
+ .pengantar4{
+     padding-left:50px;
+ }
+ .pesananmu{
+     padding-left:50px
+ }
+ table {
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.total-harga {
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.nama-nohp{
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+footer{
+    width: auto;
+    height: auto;
+    font-size:12px;
+    padding-bottom:10px;
+}
+ }
+
+ 
